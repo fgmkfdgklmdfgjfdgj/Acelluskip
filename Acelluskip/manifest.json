@@ -1,0 +1,23 @@
+{
+  "name": "Acelluskip",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Skip acellus videos.",
+  "homepage_url": "https://example.org",
+  "icons": {
+    "128": "icon.jfif"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Skip video or suffer."
+  },
+  "permissions": [
+    "https://*.acellus.com/*",
+    "http://*.acellus.com/*"
+  ]
+}
